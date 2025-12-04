@@ -1,0 +1,21 @@
+{
+    "name": "@workspace/movieapi",
+    "version": "0.0.1",
+    "type": "module",
+    "private": true,
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "lint": "eslint . --max-warnings 0"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@workspace/eslint-config": "workspace:*",
+        "@workspace/typescript-config": "workspace:*",
+        "eslint": "^9.32.0",
+        "typescript": "^5.9.2"
+    }
+}
